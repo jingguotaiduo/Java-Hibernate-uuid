@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+          "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+          "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!-- 指定方言 -->
+        <property name="dialect">
+            org.hibernate.dialect.MySQLDialect
+        </property>
+        <!-- 链接数据库url -->
+        <property name="connection.url">
+              jdbc:mysql://localhost:3306/xxl_job?useUnicode=true&amp;characterEncoding=utf-8&amp;serverTimezone=GMT
+        </property>
+        <!-- 连接数据库的用户名 -->
+        <property name="connection.username">
+            root
+        </property>
+        <!-- 数据库的密码 -->
+        <property name="connection.password">
+            123456
+        </property>
+        <!-- 数据库驱动 -->
+        <property name="connection.driver_class">
+            com.mysql.jdbc.Driver
+        </property>
+        <!-- 显示sql语句 -->
+        <property name="show_sql">
+            true
+        </property>
+        <!-- 格式化sql语句 -->
+        <property name="format_sql">true</property>
+        <!-- 映射文件配置 -->
+        <mapping resource="com/Row.hbm.xml" />
+    </session-factory>
+</hibernate-configuration>

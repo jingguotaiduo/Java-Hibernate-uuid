@@ -1,0 +1,27 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "d:\\JJG-WorkLog\\2024-1-6-jjg-work\\hibernate-core-5.3.14.Final.jar",
+        "d:\\JJG-WorkLog\\2024-1-6-jjg-work\\javax.persistence-api-2.2.jar",
+        "d:\\JJG-WorkLog\\2024-1-6-jjg-work\\mysql-connector-java-8.0.18.jar",
+        "d:\\JJG-WorkLog\\2024-1-6-jjg-work\\jboss-logging-3.3.3.Final.jar",
+        "d:\\JJG-WorkLog\\2024-1-6-jjg-work\\jta-1.1.jar",
+        "d:\\JJG-WorkLog\\2024-1-6-jjg-work\\dom4j-2.1.1.jar",
+        "d:\\JJG-WorkLog\\2024-1-6-jjg-work\\byte-buddy-1.11.22.jar",
+        "d:\\JJG-WorkLog\\2024-1-6-jjg-work\\hibernate-commons-annotations-5.0.4.Final.jar",
+        "d:\\JJG-WorkLog\\2024-1-6-jjg-work\\classmate-1.5.1.jar",
+        "d:\\JJG-WorkLog\\2024-1-6-jjg-work\\antlr-2.7.7.jar",
+        "antlr-2.7.7.jar",
+        "byte-buddy-1.11.22.jar",
+        "classmate-1.5.1.jar",
+        "dom4j-2.1.1.jar",
+        "hibernate-commons-annotations-5.0.4.Final.jar",
+        "hibernate-core-5.3.14.Final.jar",
+        "javax.persistence-api-2.2.jar",
+        "jboss-logging-3.3.3.Final.jar",
+        "jta-1.1.jar",
+        "mysql-connector-java-8.0.18.jar"
+    ]
+}
