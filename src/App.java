@@ -119,8 +119,8 @@ public class App {
 
     
     public static void main(String[] args) throws Exception {
-        for(int i=0;i<20;i++)
-            insertData("test123", 1);
+        // for(int i=0;i<20;i++)
+        //     insertData("test123", 1);
         queryAllData("1=1"); // "1=1" "id = '4028896c8cdd6d55018cdd6d56420002'"
         // updateData("set name = '12233330000' WHERE 1=1");
         // deleteData("1=1"); //  name = 'jing_zhong'
